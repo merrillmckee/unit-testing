@@ -2,7 +2,7 @@ import pytest
 import time
 
 from my_functions import return_one, return_one_slowly
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, patch  # unittest is only used for mocking
 
 
 def test_return_one():
