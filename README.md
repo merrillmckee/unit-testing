@@ -7,7 +7,7 @@ I believe in automated testing: unit testing, integration tests, end-to-end test
 
 of trivial functions
 
-"""
+```
 import time
 
 
@@ -18,4 +18,4 @@ def return_one(num: float) -> float:
 def return_one_slowly(num: float) -> float:
     time.sleep(3.0)
     return 1.0
-"""
+```
